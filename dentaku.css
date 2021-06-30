@@ -1,0 +1,25 @@
+body {
+padding-top : 30px;
+}
+
+
+input {
+  width: 210px;
+  height: 20px;
+  text-align: right;
+  margin-bottom: 2px;
+  background-color: black;
+  color: white;
+}
+
+
+button{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 2px;
+}
+
+
+.ac_eq {
+  width :105px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="ja">
+  <link rel="stylesheet" href="dentaku.css">
+  <body>
+    <input value="0"/>
+    <br>
+    
+    <button onclick="append( '7' )" >7</button>
+    <button onclick="append( '8' )" >8</button>
+    <button onclick="append( '9' )" >9</button>
+    <button onclick="kigou( '+' )" >+</button><br>
+    <button onclick="append( '4' )" >4</button>
+    <button onclick="append( '5' )" >5</button>
+    <button onclick="append( '6' )" >6</button>
+    <button onclick="kigou( '-' )" >-</button><br>
+    <button onclick="append( '1' )" >1</button>
+    <button onclick="append( '2' )" >2</button>
+    <button onclick="append( '3' )" >3</button>
+    <button onclick="kigou( '*' )" >*</button><br>
+    <button onclick="append( '0' )" >0</button>
+    <button onclick="append( '00' )" >00</button>
+    <button onclick="kigou( '.' )" >.</button>
+    <button onclick="kigou( '/' )" >/</button><br>
+    <button class="ac_eq" onclick="update( '0' )" >AC</button>
+    <button class="ac_eq" onclick="calc()" >=</button>
+
+<script src="dentaku2.js"></script>
+</body>
+</html>
